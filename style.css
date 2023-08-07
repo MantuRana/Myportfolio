@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url(/images/bg2.jpg);
+    background-image: url(bg2.jpg);
     background-color: #111112;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -104,7 +104,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        /* background: linear-gradient(rgba(21, 45, 48, 0.8), rgba(16, 34, 37, 0.8)), url(../images/sidebar-img.jpg); */
+        /* background: linear-gradient(rgba(21, 45, 48, 0.8), rgba(16, 34, 37, 0.8)), url(sidebar-img.jpg); */
         background-color: #111112;     
         background-size: cover;
         background-position: center;
