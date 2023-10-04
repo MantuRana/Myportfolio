@@ -12,12 +12,20 @@
 }
 
 body {
-    background-image: url(bg2.jpg);
+    background-image: url(/images/bg2.jpg);
     background-color: #111112;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     color: var(--color-body);
     font-family: var(--font-base), sans-serif;
+}
+.container .navbar-brand img{
+    box-shadow: 0px 0px 12px 5px rgb(186, 163, 163,0.4);
+   
+   }
+.container .navbar-brand img:hover{
+ box-shadow: 0px 0px 12px 5px rgba(241, 236, 236, 0.4);
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -26,17 +34,23 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 20px;
 }
 
-
 a {
     text-decoration: none;
-    color:white;
+    color:orange;
     transition: all 0.4s ease;
 }
 
+
 a:hover {
-    color: rgb(84, 21, 220); 
+    color: rgb(242, 240, 236); 
     font-size: 1.3rem;
     transition: all 0.4s ease;
+  
+}
+
+.container .row button:hover{
+
+background-color: green;
 }
 
 img {
@@ -79,6 +93,15 @@ img {
     font-size: 32px;
     background-color: var(--color-brand);
     color: var(--color-base);
+   
+}
+
+footer .container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: orange;
+    text-decoration: underline;
+    text-shadow: 0px 3px 2px white;
 }
 
 /* NAVBAR */
@@ -104,7 +127,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        /* background: linear-gradient(rgba(21, 45, 48, 0.8), rgba(16, 34, 37, 0.8)), url(sidebar-img.jpg); */
+        /* background: linear-gradient(rgba(21, 45, 48, 0.8), rgba(16, 34, 37, 0.8)), url(../images/sidebar-img.jpg); */
         background-color: #111112;     
         background-size: cover;
         background-position: center;
@@ -194,9 +217,9 @@ img {
 }
 
 /* SOCIAL ICONS */
-.social-icons{
+.social-icons a{
    
-
+    box-shadow: 0px 0px 15px 2px rgb(232, 231, 227,0.5);
 }
 
 .social-icons a {
